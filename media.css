@@ -1,0 +1,113 @@
+@media only screen and (max-width: 1215px) {
+    .link li {
+        width: 200px;
+    }
+    .link li a {
+        padding: 0;
+    }
+    header p {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .container {
+         max-width: 95%;
+    }
+    .works_step-two,
+    .works_step-four {
+        padding: 0 5% 0 5%;
+    } 
+}
+@media only screen and (max-width: 835px) {
+    .link ul {
+        display: none;
+    }
+    .basket a {
+        display: none;
+    }
+    .card {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .card:nth-child(even) .ingredients_foto {
+        order: 0;
+    }
+    .card:nth-child(even) .ingredients_foto img {
+        left: 10px;
+    }
+    .works_step-one,
+    .works_step-two,
+    .works_step-three,
+    .shop {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    summary h3 i {
+        margin-left: 10px;
+    }
+    .works_step-one img,
+    .works_step-three img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .works_step-three img {
+        margin-bottom: -55px;
+    }
+    .works_step-one p,
+    .works_step-three p{
+        margin: 0;
+    }
+    .works_step-two,
+    .works_step-four {
+        display: inline-block;
+    }
+    .works_step-two h2,
+    .works_step-four h2 {
+        margin: 30px 20px 0 0;
+        float: left;
+    }
+    .works_step-four p {
+        float: right;
+        width: 50%;
+        padding: 70px 30px 0 0;
+    }
+    .instruction {
+        clear: both;
+    }
+    .instruction-info p {
+        float: left;
+        width: 80%;
+        padding: 0;
+    }
+    .instruction-info img {
+        top: 0;
+        left: 30px;
+        width: 40px;
+    }
+    .works_step-three h2 {
+        margin: 30px 20px 0 0;
+        float: right;
+    }
+    .works_step-two p {
+        margin: 70px 0 0 10px;
+    }
+    .works_step-three p {
+        margin-top: 30px;
+        width: 95%;
+    }
+    .shop_card {
+        width: 80%;
+    }
+    .shop_button {
+        margin-bottom: 40px;
+    }
+    .footer_link {
+        display: block;
+        text-align: center;
+    }
+    .footer_link li {
+        display: block;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+}

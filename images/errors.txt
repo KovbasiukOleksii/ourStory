@@ -1,0 +1,4 @@
+[2019-01-09 12:37:11] layer "Watermelon Fruit Extract is touted for being rich in vitamin C,": Expected end of input but "," found.
+[2019-01-09 12:37:11] layer "Probiotics help replenish levels of good bacteria on the skin, ": Expected end of input but "," found.
+[2019-01-09 12:37:11] layer "Watermelon Fruit Extract is touted for being rich in vitamin C,": Expected end of input but "," found.
+[2019-01-09 12:37:11] layer "Probiotics help replenish levels of good bacteria on the skin, ": Expected end of input but "," found.
