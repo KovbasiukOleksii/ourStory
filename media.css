@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1950px) {
+    .ingredients_foto img {
+        height: 450px;
+        width: 550px;
+    }
+}
+@media only screen and (max-width: 1525px) {
+    .ingredients_foto img {
+        height: 250px;
+        width: 350px;
+    }
+}
 @media only screen and (max-width: 1215px) {
     .link li {
         width: 200px;
@@ -35,6 +47,10 @@
     .card:nth-child(even) .ingredients_foto img {
         left: 10px;
     }
+    .ingredients_foto img {
+        width: 300px;
+        height: 200px;
+    }
     .works_step-one,
     .works_step-two,
     .works_step-three,
@@ -70,6 +86,9 @@
         float: right;
         width: 50%;
         padding: 70px 30px 0 0;
+    }
+    .works_step-three img {
+        bottom: 0;
     }
     .instruction {
         clear: both;

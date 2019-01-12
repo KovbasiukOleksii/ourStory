@@ -227,7 +227,7 @@ header p {
 }
 .ingredients_foto img {
     display: block;
-    padding: 10%;
+    padding: 5%;
     position: relative;
     top: -10px;
     left: 10px;
@@ -307,7 +307,6 @@ summary h3 i {
 details div {
   transition: min-height .15s linear, max-height .5s linear;
   -webkit-transition: min-height .15s linear, max-height .15s linear;
-  overflow: hidden;
 }
 details[open] i {
     transition: .5s;
@@ -330,7 +329,8 @@ details p {
     display: block;
     position: relative;
     margin-left: 10%;
-    bottom: -15px;
+    bottom: -10px;
+    z-index: 1;
     width: 30%;
 }
 .works_step-one h2,
@@ -349,15 +349,21 @@ details p {
 }
 .works_step-two,
 .works_step-four {
+    position: relative;
     background: url(images/fon.png) no-repeat center top / cover;
     padding: 0 15% 0 15%;
 }
-.works_step-two img,
 .works_step-three img {
     display: block;
-    width: 30%;
+    position: relative;
+    bottom: -25px;
+    z-index: 111;
+    width: 20%;
     margin-left: 10%;
-    margin-bottom: -15px;
+}
+.works_step-two img {
+    display: block;
+    width: 30%;
 }
 .works_step-four p,
 .works_step-three p{
@@ -461,9 +467,7 @@ footer {
     color: #fff;
 }
 .footer_link ul {
-    list-style: none;
-    padding: 0;
-    
+    list-style: none;  
 }
 .footer_link li {
     display: inline-block;
